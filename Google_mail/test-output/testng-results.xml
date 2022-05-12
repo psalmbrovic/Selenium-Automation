@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-12T23:05:01 WAT" name="Default suite" finished-at="2022-05-12T23:06:56 WAT" duration-ms="114898">
+    <groups>
+    </groups>
+    <test started-at="2022-05-12T23:05:01 WAT" name="Default test" finished-at="2022-05-12T23:06:56 WAT" duration-ms="114898">
+      <class name="Login.Gmail_login">
+        <test-method signature="AssetFunction()[pri:0, instance:Login.Gmail_login@fba92d3]" started-at="2022-05-12T23:05:01 WAT" name="AssetFunction" finished-at="2022-05-12T23:06:56 WAT" duration-ms="114827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssetFunction -->
+      </class> <!-- Login.Gmail_login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
