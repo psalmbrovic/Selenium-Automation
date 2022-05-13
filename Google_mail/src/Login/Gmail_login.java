@@ -16,8 +16,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Gmail_login {
-	String actualmessage;
-	String expectedmessage = "message sent";
+	
 public static void main(String[] args) {
 	// TODO Auto-generated method stub
 	}
@@ -64,16 +63,15 @@ public static void main(String[] args) {
 				//driver.findElement(By.xpath("//div[@class()='T-I J-J5-Ji aoO v7 T-I-atl L3']")).click();
 				driver.findElement(By.xpath("//div[text()='Send']")).click();
 				
-				//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"link_vsm\"]")));
 				
-				//String expectedtitle="message sent";
-				//String actualtitle =driver.getTitle();
-				//{
-					//Assert.assertEquals(actualtitle, expectedtitle);
 				
-				//}
+				String expected="message sent";
+				String actual = driver.getTitle();
+			
+				Assert.assertEquals(expected, "message sent");
+			
 				
-				driver.close();
+				//driver.close();
 			}
 			
 			
