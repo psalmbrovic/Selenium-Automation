@@ -5,7 +5,15 @@
     <classes>
       <class name="Login.Gmail_login">
         <methods>
-          <include name="AssetFunction"/>
+          <include name="email_receipaint1"/>
+          <include name="Click_enter"/>
+          <include name="close_browser"/>
+          <include name="Input_password"/>
+          <include name="email_subject"/>
+          <include name="email_receipaint"/>
+          <include name="Click_nter"/>
+          <include name="Input_username"/>
+          <include name="click_compose_email"/>
         </methods>
       </class> <!-- Login.Gmail_login -->
     </classes>
